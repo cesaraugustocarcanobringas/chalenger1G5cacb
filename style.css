@@ -17,11 +17,12 @@ header{
     position: absolute;
     display: flex;
     color: #495057;
-    width: 7%;
-    height:4%;
+    width: 9%;
+    height:7%;
     padding-top: 0px;
     padding-left:0px;
-
+    left: 10px;
+    top: 10px;
 }
 
 main{
