@@ -1,6 +1,6 @@
 *{
     margin:0;
-    padding: 0;
+    padding:0;
     font-family: 'Trebuchet MS',  sans-serif;
 }
 
@@ -126,6 +126,7 @@ main{
     box-sizing: border-box;
     top: 520px;
     left: 40px;
+       
 }
 
 .contenedor-parrafo h3{
@@ -156,8 +157,10 @@ main{
 }
 
 .contenedor-resultado p{
-    color:#495057;
+    margin-top: 70%;
+    color:rgb(17, 53, 163);
     font-size: 25px;
+    
 }
 
 .contenedor-copiar{
@@ -165,7 +168,8 @@ main{
     position: absolute;
     bottom: 400px;
     top: 600px;
-    background-color:aqua;
+    background-color:red;
+    color:pink;
     padding-left: 40px;
 }
 
@@ -185,3 +189,14 @@ main{
     right: 60px;
 }
 
+.ocultar{
+    display: none;
+}
+
+
+.copyright{
+    position: relative;
+    text-align: center;
+    top: 710px;
+    color: blue;
+}
