@@ -161,7 +161,6 @@ main{
     margin-top: 70%;
     color:rgb(17, 53, 163);
     font-size: 25px;
-    
 }
 
 .contenedor-copiar{
@@ -200,4 +199,188 @@ main{
     text-align: center;
     top: 710px;
     color: blue;
+}
+
+
+/*Responsive Design*/
+@media (max-width:57.5em){
+    *{
+        margin:0;
+        padding:0;
+        font-family: 'Trebuchet MS',  sans-serif;
+    }
+.logo{
+    position: absolute;
+    display: flex;
+    color: #495057;
+    width: 5%;
+    height:3%;
+    padding-top: 0px;
+    padding-left:0px;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorcajatexto{
+    position: absolute;
+    font-family: 'Trebuchet MS',  sans-serif;
+    font-size: 18px;
+    left: 1px;
+    top: 60px;
+    padding-left: 10px;
+    width: 300px;
+    height: 300px;
+}
+.cajatexto{
+    width: 50%;
+    height: 80%;
+    border: none;
+    background-color: #f4f4fc;   
+    cursor:pointer;
+    color: #0a3871;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS',  sans-serif;   
+}
+.cajatexto::placeholder{
+    color:#0A3871;
+}
+.alerta{
+    position: absolute;
+    width: 50%;
+    height:4%;
+    top: 330px;
+    left: 70px;
+    display:flex;
+    color: #495057;
+}
+.contenedor-botones{
+    position:absolute;
+    top: 400px;
+    height: 80px;
+    padding-left: 9%;
+    padding-top: 1px;
+}
+.btn-encriptar{
+    width: 100px;
+    height: 25px;
+    border-radius: 24px;
+    background-color:#0A3871;
+    color:white;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS',  sans-serif;
+    border:none;
+    margin-right: 40px;
+    cursor:pointer;      
+}
+.btn-desencriptar{
+    width: 100px;
+    height: 25px;
+    border-radius: 24px;
+    background-color:#D8DFE8;
+    color:#0A3871;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS',  sans-serif;
+    border:1px solid #0A3871;
+    cursor:pointer;      
+}
+.seccion2{
+    display: block;
+    position:absolute;
+    width: 180px;
+    height: 300px;
+    left: 180px;
+    padding-left: 2px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0, 0.50)
+}
+.contenedormunieco{
+    position: absolute;
+    display: flex;
+    color: #495057;
+    width: 50%;
+    height:50%;
+    top: 25px;
+    left:2px;
+}
+.contenedor-parrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 210px;
+    left: 10px;
+}
+.contenedor-parrafo h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS',  sans-serif;
+    text-align: center;
+    color: #343A40;    
+}
+.contenedor-parrafo p{
+    font-family: 'Trebuchet MS',  sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    color: #495057;
+    padding-top: 1px;    
+}       
+.contenedor-resultado{
+    position:absolute;
+    top: 40px;
+    bottom: 120px;
+    width: 120px;
+    height: 300px;
+    padding: 0;
+    color:green;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+.contenedor-resultado p{
+    margin-top: 10%;
+    color:rgb(17, 53, 163);
+    font-size: 18px;
+}
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    top: 35px;
+    background-color:white;
+    color:pink;
+    padding-left: 40px;
+}
+.btn-copiar{
+    width: 120px;
+    height: 37px;
+    border-radius: 19px;
+    background-color:#0a0a71;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS',  sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: absolute;
+    top: 405px;
+    left: 0px;
+}
+
+.ocultar{
+    display: none;
+}
+.copyright{
+    position: absolute;
+    top: 480px;
+    left:120px;
+    color: blue;
+    font-size: 10px;
+}
 }
